@@ -67,4 +67,35 @@
             color: var(--dark-color);
         }
     }
+
+    @media screen and (min-width: 64em) {
+    &__menu{
+        position: initial;
+        width: initial;
+        background-color: transparent;
+        border-radius: initial;
+        padding: initial;
+        transform: initial;
+
+        :is(&-logo, &-divider, &-footer){
+            display: none;
+        }
+    }
+
+    &__list{
+        flex-direction: row;
+
+        &-link{
+            padding: 1rem;
+            margin-inline: 1rem;
+            color: var(--light-color);
+            font-weight: 600;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+
+    }
 }
