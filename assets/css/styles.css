@@ -172,7 +172,7 @@ button {
 }
 
 .btn-group {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 .btn-group-btn {
   display: flex;
@@ -250,7 +250,8 @@ button {
   width: 33rem;
   border-top-left-radius: 0.8rem;
   border-bottom-left-radius: 0.8rem;
-  padding: 2.4rem 2.8rem 12rem 2.4rem;
+  padding: 2.4rem 4.8rem 12rem 2.4rem;
+  transform: translateX(33rem);
 }
 .nav__menu--active {
   transform: translateX(0);
