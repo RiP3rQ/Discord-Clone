@@ -519,4 +519,78 @@ button {
   .nitro-classic__content {
     grid-column: 7/span 6;
   }
+}
+
+.footer {
+  background-color: var(--dark-color);
+  padding-top: 8rem;
+  padding-bottom: 6.4rem;
+}
+.footer__info {
+  grid-column: span 3;
+  margin-bottom: 5.6rem;
+}
+.footer__info-title {
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  color: var(--brand-color);
+}
+.footer__info-languages {
+  margin-block: 2.4rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.footer__info-languages img {
+  width: 2.4rem;
+}
+.footer__info-languages span {
+  margin-inline: 0.8rem;
+}
+.footer__info-socials {
+  font-size: 2.4rem;
+  margin-right: 2.4rem;
+}
+.footer__spacer {
+  display: none;
+}
+.footer__group {
+  grid-column: span 2;
+  margin-bottom: 4rem;
+  line-height: 2.4rem;
+}
+.footer__group-title {
+  padding-top: 0.8rem;
+  font-size: inherit;
+  color: var(--brand-color);
+  font-weight: 400;
+}
+.footer__group-link {
+  display: block;
+  margin-top: 0.8rem;
+}
+.footer__group-link:hover {
+  text-decoration: underline;
+}
+.footer__divider {
+  grid-column: 1/-1;
+  height: 1px;
+  background-color: var(--brand-color);
+  margin-bottom: 3.2rem;
+}
+.footer__misc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (min-width: 48em) {
+  .footer__info {
+    grid-row-end: span 2;
+  }
+  .footer__spacer {
+    display: block;
+    grid-column: span 1;
+    grid-row: span 2;
+  }
 }/*# sourceMappingURL=styles.css.map */
