@@ -486,4 +486,37 @@ button {
   .benefits__footer .btn {
     width: 38rem;
   }
+}
+
+.nitro-classic {
+  padding-block: 5.6rem;
+  background-color: #7289da;
+}
+.nitro-classic__image {
+  width: 20rem;
+}
+.nitro-classic__paragraph {
+  text-align: left;
+  margin-top: 2.4rem;
+  line-height: 1.625;
+}
+.nitro-classic__btn-group {
+  margin-top: 3.2rem;
+}
+@media screen and (min-width: 48em) {
+  .nitro-classic {
+    padding-block: 8rem;
+  }
+  .nitro-classic__content {
+    grid-column: 1/span 6;
+  }
+}
+@media screen and (min-width: 64em) {
+  .nitro-classic {
+    padding-top: 12rem;
+    padding-bottom: 15rem;
+  }
+  .nitro-classic__content {
+    grid-column: 7/span 6;
+  }
 }/*# sourceMappingURL=styles.css.map */
