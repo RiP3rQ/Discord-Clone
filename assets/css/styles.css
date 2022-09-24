@@ -381,4 +381,109 @@ button {
   .nav__list-link:hover {
     text-decoration: underline;
   }
+}
+
+.benefits {
+  padding-top: 5.6rem;
+  padding-bottom: 3.2rem;
+}
+.benefits__heading {
+  color: var(--dark-color);
+}
+.benefits__title {
+  font-weight: 800;
+  line-height: 95%;
+  text-transform: uppercase;
+}
+.benefits__subtitle {
+  margin-top: 2.4rem;
+}
+.benefits__cards {
+  gap: 2rem;
+  margin-top: 5.6rem;
+}
+.benefits__card {
+  padding: 3.2rem;
+  border-radius: 0.8rem;
+  text-align: center;
+}
+.benefits__card-title {
+  font-weight: 600;
+}
+.benefits__card-description {
+  line-height: 2.4rem;
+  margin-top: 1.2rem;
+}
+.benefits__card-image {
+  margin-top: 2rem;
+  margin-inline: auto;
+}
+.benefits__card:nth-child(1) {
+  background: var(--card-gradient-1);
+}
+.benefits__card:nth-child(2) {
+  background: var(--card-gradient-2);
+}
+.benefits__card:nth-child(3) {
+  background: var(--card-gradient-3);
+}
+.benefits__card:nth-child(4) {
+  background: var(--card-gradient-4);
+}
+.benefits__card:nth-child(5) {
+  background: var(--card-gradient-5);
+}
+.benefits__card:nth-child(6) {
+  background: var(--card-gradient-6);
+}
+.benefits__card:nth-child(5) img, .benefits__card:nth-child(6) img {
+  width: 17.7rem;
+  height: 11.6rem;
+}
+.benefits__footer {
+  padding-top: 5.6rem;
+}
+.benefits__footer-title {
+  font-size: clamp(1.8rem, 3vw, 3.2rem);
+  line-height: 120%;
+  color: var(--dark-color);
+}
+@media screen and (min-width: 48em) {
+  .benefits {
+    padding-top: 8rem;
+    padding-bottom: 5.6rem;
+  }
+  .benefits__cards {
+    margin-top: 8rem;
+  }
+  .benefits__card {
+    grid-column: span 4;
+  }
+  .benefits__footer {
+    margin-top: 8rem;
+  }
+  .benefits__footer .btn {
+    width: 100%;
+  }
+  .benefits__footer .btn:first-child {
+    margin-right: 2rem;
+  }
+}
+@media screen and (min-width: 64em) {
+  .benefits {
+    padding-top: 12rem;
+    padding-bottom: 9.6rem;
+  }
+  .benefits__cards {
+    margin-top: 12rem;
+  }
+  .benefits__footer {
+    margin-top: 12rem;
+  }
+  .benefits__footer-btn-group {
+    justify-content: center;
+  }
+  .benefits__footer .btn {
+    width: 38rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
